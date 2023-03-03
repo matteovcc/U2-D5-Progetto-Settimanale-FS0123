@@ -28,6 +28,7 @@
     margin-right: 10px;
     list-style: none;
     color: #191919;
+    font-size:1rem;
   }
 
   #header-container a {
@@ -99,11 +100,10 @@
     margin-left: 12%;
     align-items: center;
     font-weight: 900;
-    font-size: 0.8rem;
+    font-size: 1.1rem;
     margin-top:2%;
   }
   #trending img {
-    margin-right: 1%;
     width: 30px;
   }
 
@@ -131,7 +131,7 @@
   }
   .author {
     margin-left: 3%;
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: 900;
     color: #292929;
   }
@@ -141,6 +141,7 @@
     font-weight: bolder;
     word-wrap: break-word;
     color: #292929;
+    font-size:1.3rem;
   }
 
   .lecture {
@@ -197,7 +198,7 @@
     justify-content: space-between;
     flex-wrap: nowrap;
     color: #757575;
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 
   .align-content a {
@@ -233,10 +234,11 @@
   }
   .aside-content {
     color: #757575;
+    font-size: 1.3rem;
   }
 
   .svg {
-    margin-left: 35%;
+    margin-left: 50%;
   }
   #right-side h3 {
     font-weight: bold;
@@ -272,6 +274,10 @@
   }
 }
 
+.no-border a{
+    border:none;
+}
 
-/*To do: Aggiustare sintassi , Aggiustare margini,aggiungere animazione svg
+
+/*To do: Aggiustare sintassi , Aggiustare margini,aggiungere animazione svg,cambiare icone
 
