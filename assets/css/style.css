@@ -90,16 +90,17 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 12%;
+    margin-left: 12%;
   }
   #trending {
     display: flex;
     margin-bottom: 2%;
-    margin-left: 6%;
+    margin-left: 12%;
     align-items: center;
     font-weight: 900;
     font-size: 0.8rem;
+    margin-top:2%;
   }
   #trending img {
     margin-right: 1%;
@@ -190,6 +191,7 @@
   }
 
   .align-content {
+    margin-top:1%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -217,7 +219,7 @@
     margin-left: 30px;
   }
   .img-container img {
-    width: 100%;
+    width: 70%;
   }
 
   #left-side {
@@ -248,6 +250,7 @@
     border: 1px solid rgba(230, 230, 230, 1);
     border-radius: 3px;
     margin-right: 8px;
+    text-decoration: none;
   }
 
   #right-side div {
@@ -260,9 +263,15 @@
   #right-side {
     display: block;
     position: sticky;
-    top: 76px;
-    width: 100%;
+    top: 80px;
+    width: 100%;  /*non riesco a risolvere in altro modo*/
+
+  }
+  #right-side hr{
+    margin-right:30%;
   }
 }
 
+
+/*To do: Aggiustare sintassi , Aggiustare margini,aggiungere animazione svg
 
