@@ -1,4 +1,7 @@
 @media screen and (min-width: 1200px) {
+    *,*::before,*::after{
+        box-sizing: border-box;
+    }
   header {
     background-color: #ffc017;
     color: #191919;
