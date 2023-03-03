@@ -274,8 +274,9 @@
   }
 }
 
-.no-border a{
-    border:none;
+.no-border {
+    margin-top:5%;
+    
 }
 
 
