@@ -94,8 +94,8 @@
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    margin-right: 12%;
-    margin-left: 12%;
+    margin-right: 6%;
+    margin-left: 6%;
   }
   #trending {
     display: flex;
@@ -168,11 +168,11 @@
 
   aside {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: "Roboto", serif;
     margin-top: 8%;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 6%;
   }
 
   .aside-container {
@@ -273,7 +273,7 @@
 
   }
   #right-side hr{
-    margin-right:30%;
+    
   }
 }
 
