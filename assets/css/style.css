@@ -1,4 +1,4 @@
-@media screen and (min-width: 1200px) {
+
     *,*::before,*::after{
         box-sizing: border-box;
     }
@@ -58,7 +58,7 @@
     margin-top: 4%;
   }
   #header-left {
-    margin-left: 12%;
+    margin-left: 4%;
   }
   #header-left h1 {
     font-family: "Spectral", serif;
@@ -67,7 +67,8 @@
     margin-top: 10%;
   }
   #header-left p {
-    font-family: "Spectral", serif;
+    font-family: "Roboto", serif;
+    font-weight: bold;
     font-size: 1.9rem;
     margin-bottom: 8%;
     margin-top: 5%;
@@ -83,6 +84,7 @@
   }
   #header-right{
     margin-top:2%;
+    margin-left:15%;
   }
 
 
@@ -100,7 +102,7 @@
   #trending {
     display: flex;
     margin-bottom: 2%;
-    margin-left: 12%;
+    margin-left:8%;
     align-items: center;
     font-weight: 900;
     font-size: 1.1rem;
@@ -273,7 +275,7 @@
 
   }
  
-}
+
 
 .no-border {
     margin-top:5%;
