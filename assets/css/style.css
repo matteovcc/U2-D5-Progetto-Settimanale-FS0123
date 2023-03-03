@@ -2,7 +2,6 @@
   header {
     background-color: #ffc017;
     color: #191919;
-    margin-bottom: 5%;
     position: relative;
   }
   #header-container {
@@ -13,7 +12,7 @@
     padding-bottom: 2%;
     z-index: 1;
     background-color: #ffc017;
-    border-bottom: 1px solid #191919;
+    border-bottom: 1px solid #1919195c;
   }
 
   #header-container img {
@@ -25,31 +24,34 @@
     text-align: right;
     margin-right: 15%;
   }
-  #header-container li {
+   li {
     margin-right: 10px;
     list-style: none;
+    color: #191919;
   }
+
   #header-container a {
     display: inline-flex;
     text-decoration: none;
     font-size: 0.8rem;
     font-weight: bold;
+    
   }
 
   #get-started {
     background-color: #191919;
     color: white;
-    padding: 10px 15px;
+    padding: 10px 12px;
     border-radius: 15px;
   }
-  #get-started li {
-    margin: 0 auto;
-  }
+
+  
+  
 
   #hero {
     display: flex;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 4%;
   }
   #header-left {
     margin-left: 12%;
@@ -58,13 +60,13 @@
     font-family: "Spectral", serif;
     font-weight: bold;
     font-size: 6.5rem;
-    margin-top: 20%;
+    margin-top: 10%;
   }
   #header-left p {
     font-family: "Spectral", serif;
     font-size: 1.9rem;
-    margin-bottom: 12%;
-    margin-top: 10%;
+    margin-bottom: 8%;
+    margin-top: 5%;
   }
   #header-left a {
     font-family: "Roboto", serif;
@@ -75,6 +77,11 @@
     border-radius: 15px;
     font-size: 1.2rem;
   }
+  #header-right{
+    margin-top:2%;
+  }
+
+
 
   main {
     font-family: "Roboto", serif;
@@ -257,3 +264,5 @@
     width: 100%;
   }
 }
+
+
